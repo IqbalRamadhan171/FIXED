@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Saira Stencil One', Arial, sans-serif;
+    background-color: #232324;
+    color: white;
+}
+
+.header {
+    background-color: #e00047;
+    padding: 15px;
+    position: relative;
+}
+
+.header img {
+    height: 50px;
+}
+
+.header a {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-bar {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    max-width: 500px;
+    border: none;
+    border-radius: 25px;
+}
+
+.search-bar input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e00047;
+    color: white;
+    border-radius: 25px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.nav-tabs a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-tabs a:hover, .nav-tabs a.active {
+    border-bottom: 2px solid #e00047;
+}
+
+.game-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.game-grid div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.game-grid p {
+    color: white;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #e00047;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-content div {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-content h4 {
+    margin-top: 0;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content li {
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-content .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-content .social-media img {
+    width: 30px;
+}

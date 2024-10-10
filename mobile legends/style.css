@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Saira Stencil One', Arial, sans-serif;
+    background-color: #232324;
+    color: rgb(21, 21, 21);
+}
+
+/* Header styling */
+.header {
+    background-color: #e00047;
+    padding: 15px;
+    position: relative;
+}
+
+.header img {
+    height: 50px;
+}
+.header a {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Banner Section */
+.banner {
+    text-align: center;
+    margin-top: 20px;
+}
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation */
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.nav-tabs a {
+    color: rgb(19, 18, 18);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+.nav-tabs a:hover, .nav-tabs a.active {
+    border-bottom: 2px solid #e00047;
+}
+
+/* ... */
+
+/* ... */
+
+/* Lengkapi Data Section */
+.lengkapi-data {
+    background-color: #232324;
+    padding: 20px;
+    border: 1px solid #fffffffe;
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    margin: 20px;
+    float: right; /* Tetap di samping kanan tutorial */
+  }
+  
+  /* Tutorial Section */
+.tutorial {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 40%;
+    margin: 20px;
+    float: left;
+  }
+  
+  /* Clear float after sections */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Topup Options Section */
+
+  
+.topup-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.topup-option {
+    display: inline-block;
+    background-color: #fdf8f8e1;
+    padding: 20px;
+    border: 1px solid #fffffffe;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+}
+.payment-methods {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+.clear {
+    clear: both;
+  }
